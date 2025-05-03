@@ -11,27 +11,27 @@
 </head>
 <body class="container-fluid">
     <header class="col-12 col-sm-12 col-lg-12">
-        <h1>Md Ashif Akhtar</h1>
-        <p class="fs-3">Frontend Developer | HTML, CSS, JavaScript, React</p>      
+        <h1 class="name">Md Ashif Akhtar</h1>
+        <p class="fs-3 skills">Frontend Developer | HTML, CSS, JavaScript, React</p>      
       </header>
 
       <nav>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Technical Skills</a></li>
-            <li><a href="">Contect</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#t-skills">Technical Skills</a></li>
+            <li><a href="#Contacts">Contect</a></li>
         </ul>
       </nav>
       <div class="container">
         <section id="about" class="about mt-4 ">
           <h2 class="text-center fw-bold about-me">About Me</h2>
          <div class="row d-flex ">
-          <div class="col-12 col-sm-12 col-lg-6 d-flex justify-content-center ">
+          <div class="col-12 col-sm-12 col-lg-6 d-flex justify-content-center profiles ">
             <img src="./image/ashifff.jpg" class="rounded rounded-circle" width="400"height="400" alt="Md Ashif Akhtar">
           </div>
          <div class="col-12 col-sm-12 col-lg-6 fs-5 d-flex justify-content-center align-items-center">
-          <p id="#about">
+          <p id="#about" class="abouts">
             Hello! I'm Md Ashif Akhtar. I've completed my gradution in BCA(Computer Application), a passionate and creative frontend developer with experience in building modern web applications using HTML, CSS, Bootstrap and JavaScript as well as ReactJs . I focus on delivering high-quality, pixel-perfect, and responsive websites that offer exceptional user experiences.
           </p>
          </div>
@@ -39,14 +39,14 @@
          </div>
         </section>
 
-        <section>
-          <h2 class="text-center fw-bold project">Projects</h2>
+        <section id="project">
+          <h2 class="text-center fw-bold project border border-2 bg-dark text-white p-1 w-100 my-4">Projects</h2>
           <div class="row">
-           <div class="col-12 col-sm-12 col-lg-4">
-            <div class="card px-4 py-2">
+           <div class="col-12 col-sm-12 col-lg-4 ">
+            <div class="card px-4 py-2 technical-card">
                <div class="carousel slide" data-bs-ride="carousel" id="eduport">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+                <div class="carousel-inner text-center">
+                  <div class="carousel-item active " >
                     <img src="./image/edu-1.png"height="200" alt="">
                   </div>
                   <div class="carousel-item">
@@ -75,7 +75,7 @@
             </div>
            </div>
             <div class="col-12 col-sm-12 col-lg-4 ">
-              <div class="card px-4 py-2">
+              <div class="card px-4 py-2 technical-card second-project">
                 <div class="carousel slide" data-bs-ride="carousel" id="eduport">
                   <div class="carousel-inner">
                     <div class="carousel-item active w-100">
@@ -117,6 +117,95 @@
            </div>
           </div>
         </section>
+
+        <section id="t-skills">
+          <h2 class="text-center technical">Technical Skills</h2>
+          <div class="row">
+           <div class="col-12 col-sm-6 col-lg-4 ">
+            <div class="card technical-card text-center tss ">
+              <div class="card-img">
+                <img src="./image/html.png" class="card-img-top" alt="">
+              </div>
+             <div class="card-body ts">
+              <h3 class="html">HTML</h3>
+              <p>Experience in building semantic, SEO-friendly, and accessible HTML structures.</p>
+             </div>
+            </div>
+           </div>
+            
+           <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card technical-card text-center tss ">
+              <div class="card-img">
+                <img src="./image/css.png" class="card-img-top" alt="">
+              </div>
+             <div class="card-body ts">
+              <h3 class="css">CSS</h3>
+              <p>Proficient in designing responsive, modern, and pixel-perfect layouts with CSS3.</p>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card technical-card text-center tss ">
+              <div class="card-img">
+                <img src="./image/javascript.png" class="card-img-top" alt="">
+              </div>
+               <div class="card-body ts">
+                <h3 class="javascript">JavaScript</h3>
+                <p>Strong in JavaScript for dynamic content, DOM manipulation, and asynchronous programming.</p>
+               </div>
+            </div>
+           </div>
+
+           <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card technical-card text-center tss">
+              <div class="card-img">
+                <img src="./image/ReactJS.jpg" class="card-img-top" alt="">
+              </div>
+              <div class="card-body ts">
+                <h3 class="reactjs">React.js</h3>
+                <p>Building scalable, reusable components and managing state with React.js.</p>
+              </div>
+             
+            </div>
+           </div>
+
+           <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card technical-card text-center tss ">
+              <div class="card-img">
+                <img src="https://www.openlogic.com/sites/default/files/image/2024-05/image-ol-boostrap-framwork-basics.jpg.jpeg" class="card-img-top" alt="">
+              </div>
+             <div class="card-body ts">
+              <h3 class="bootstrap">Bootstrap</h3>
+              <p>Experience in using Bootstrap to create mobile-first and responsive web pages.</p>
+             </div>
+            </div>
+           </div>
+
+           <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card technical-card text-center tss">
+              <div class="card-img">
+                <img src="./image/mysql.png" class="card-img-top">
+              </div>
+              <div class="card-body ts">
+                <h3 class="mysql">MySQL</h3>
+                <p>Experience in working with relational databases, writing SQL queries for data management.</p>
+              </div>
+            </div>
+           </div>
+          </div>
+        </section>
+
+        <section id="Contacts" class="l-contect" >
+          <h2 class="contact text-center">Contact</h2>
+          <p class="text-center fs-4">Email: mdashifakhtar7075@gmail.com</p>
+          <p class="text-center fs-4">Mobile : 7075181875</p>
+          <p class="text-center"><strong class="me-2">GitHub:</strong><a  href="https://github.com/ashif82"> https://github.com/ashif82</a></p>
+          <p class="text-center"><strong class="me-2">LinkedIn:</strong><a href="https://www.linkedin.com/in/md-ashif-akhtar-133481333/"> https://www.linkedin.com/in/md-ashif-akhtar-133481333/</a></p>
+        </section>
       </div>
+      <footer class="text-center">
+        &copy; 2025 Md Ashif Akhtar. All rights reserved.
+      </footer>
 </body>
 </html>

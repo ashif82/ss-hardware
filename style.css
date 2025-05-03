@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
 @media(max-width:600px){
    header{
     height: 300px !important;
@@ -12,8 +15,50 @@
     flex-direction: column;
     gap: 5px !important;
    }
+   .ts{
+    font-size: 20px;
+    padding: 0px;
+    /* margin-top: 20px; */
+}
+.tss{
+    margin-top: 20px;
+}
    
 }
+@media(max-width:800px){
+    header{
+     height: 300px !important;
+    } 
+   
+    nav ul{
+     display: flex;
+     flex-direction: column;
+     gap: 5px !important;
+    }
+    .second-project{
+        margin-top: 20px;
+    }
+    .ts{
+        font-size: 20px;
+        padding: 30px;
+        /* margin-top: 20px; */
+       
+    }
+    .tss{
+        margin-top: 20px;
+    }
+    
+ }
+ @media(min-width:800px){
+    .ts{
+        font-size: 18px;
+        padding: 70px;
+        /* margin-top: 20px; */   
+    }
+    .tss{
+        margin-top: 10px;
+    }
+ }
 header{
     background-image: url("https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?semt=ais_hybrid&w=740");
     background-position: center;
@@ -48,9 +93,82 @@ nav ul li a{
 .container{
     font-family:arial
 }
-.about-me{
-    color: blue;
-}
-.project{
+
+.project ,.technical,.about-me ,.html , .css , .javascript , .reactjs , .bootstrap , .mysql,.contact{
     color:blue;
+    font-weight: bold;
 }
+.technical-card{
+    transition: 0.5s;
+}
+.technical-card:hover{
+    box-shadow: 2px 2px 5px 2px rgb(224, 224, 226), -2px -2px 5px 2px rgb(224, 224, 226);
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+section{
+    width: 85%;
+  margin: auto;
+}
+.l-contect{
+    padding: 60px 60px;
+    font-family: arial;
+}
+footer{
+    background-color: rgb(247, 242, 242);
+    padding: 30px 20px;
+}
+@keyframes profils {
+    from {
+      opacity: 0;
+      transform: translateX(-500px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes about {
+    from{
+        opacity: 0;
+        transform: translateX(500px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    } 
+  }
+  @keyframes name{
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  @keyframes skill{
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  .profiles{
+    animation: profils 3s ease-in-out;
+  }
+  .abouts{
+    animation: about 3s ease-in-out;
+    font-family: arial;
+  }
+  .name{
+    animation: name 2s ease-in-out;
+  }
+  .skills{
+    animation: skill 5s  ease-in-out ;
+
+  }
