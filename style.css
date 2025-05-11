@@ -4,6 +4,7 @@
 }
 body{
     overflow-x: hidden;
+   
 }
 @media(max-width:600px){
    header{
@@ -23,6 +24,11 @@ body{
 .tss{
     margin-top: 20px;
 }
+.abouts{
+    margin-top: 15px;
+    font-family:arial;
+}
+
    
 }
 @media(max-width:800px){
@@ -40,31 +46,33 @@ body{
     }
     .ts{
         font-size: 20px;
-        padding: 30px;
-        /* margin-top: 20px; */
-       
+        padding: 30px;  
     }
     .tss{
         margin-top: 20px;
     }
+   
     
  }
  @media(min-width:800px){
     .ts{
         font-size: 18px;
         padding: 70px;
-        /* margin-top: 20px; */   
+ 
     }
     .tss{
         margin-top: 10px;
     }
+   
  }
 header{
-    background-image: url("https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?semt=ais_hybrid&w=740");
-    background-position: center;
-    background-size: cover;
-   
-    height: 400px;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/laptop-with-glowing-screen-table-dark-top-view-copy-space_169016-51607.jpg?semt=ais_hybrid&w=740");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+    height: 450px;
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -100,16 +108,18 @@ nav ul li a{
 }
 .technical-card{
     transition: 0.5s;
+    background-color: rgb(4, 37, 50);
+    color: white;
 }
 .technical-card:hover{
     box-shadow: 2px 2px 5px 2px rgb(224, 224, 226), -2px -2px 5px 2px rgb(224, 224, 226);
     transform: translateY(-10px);
     transition: 0.5s;
 }
-section{
+/* section{
     width: 85%;
   margin: auto;
-}
+} */
 .l-contect{
     padding: 60px 60px;
     font-family: arial;
@@ -121,21 +131,21 @@ footer{
 @keyframes profils {
     from {
       opacity: 0;
-      transform: translateX(-500px);
+      transform: translateX(-500px)translateY(360px);
     }
     to {
       opacity: 1;
-      transform: translateX(0);
+      transform: translateX(0)translateY(0); 
     }
   }
   @keyframes about {
     from{
         opacity: 0;
-        transform: translateX(500px);
+        transform: translateX(500px)translateY(-360px);
     }
     to{
         opacity: 1;
-        transform: translateX(0);
+        transform: translateX(0)translateY(0);
     } 
   }
   @keyframes name{
@@ -156,13 +166,14 @@ footer{
     to{
         opacity: 1;
         transform: translateY(0);
+       
     }
   }
   .profiles{
-    animation: profils 3s ease-in-out;
+    animation: profils 4s ease-in-out;
   }
   .abouts{
-    animation: about 3s ease-in-out;
+    animation: about 4s ease-in-out;
     font-family: arial;
   }
   .name{
@@ -170,5 +181,12 @@ footer{
   }
   .skills{
     animation: skill 5s  ease-in-out ;
-
   }
+  #t-skills{
+    margin-top: 50px;
+  }
+  #giticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
