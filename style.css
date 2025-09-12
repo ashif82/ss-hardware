@@ -26,7 +26,7 @@ body{
 }
 .abouts{
     margin-top: 15px;
-    font-family:arial;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
    
@@ -67,13 +67,13 @@ body{
  }
 header{
     width: 100%;
-    background-image: url("https://img.freepik.com/free-photo/laptop-with-glowing-screen-table-dark-top-view-copy-space_169016-51607.jpg?semt=ais_hybrid&w=740");
-    background-position:center;
+    background-image: url("https://images.unsplash.com/photo-1677529459643-5d1b93049254?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* background-position:center;
     background-size:cover;
-    background-repeat:no-repeat;
+    background-repeat:no-repeat; */
     
     height: 450px;
-    color: white;
+    color: rgb(244, 242, 242);
     padding: 100px 20px;
     text-align: center;
     
@@ -102,7 +102,7 @@ nav ul li a{
     font-family:arial
 }
 
-.project ,.technical,.about-me ,.html , .css , .javascript , .reactjs , .bootstrap , .mysql,.contact{
+.Door ,.Windows,.about-me ,.html , .css , .javascript , .reactjs , .bootstrap , .mysql,.contact{
     color:blue;
     font-weight: bold;
 }
@@ -189,4 +189,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;  
+}
+#door{
+    margin-top: 60px;
+    
 }
