@@ -7,6 +7,9 @@ body{
    
 }
 @media(max-width:600px){
+    .container-fluid{
+        overflow-x: hidden;
+    }
    header{
     height: 300px !important;
    } 
