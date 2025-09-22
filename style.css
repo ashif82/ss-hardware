@@ -76,7 +76,7 @@ header{
     background-repeat:no-repeat; */
     
     height: 450px;
-    color: rgb(244, 242, 242);
+    color: rgb(14, 14, 14);
     padding: 100px 20px;
     text-align: center;
     
@@ -172,6 +172,10 @@ footer{
        
     }
   }
+ 
+  #intro{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
   .profiles{
     animation: profils 4s ease-in-out;
   }
@@ -196,4 +200,28 @@ footer{
 #door{
     margin-top: 60px;
     
+}
+
+   #select{
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 14px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory; 
+  }
+  #select::-webkit-scrollbar {
+  display: none;        
+}
+.images{
+    border: 10px solid rgb(228, 222, 222);
+      transition: all 0.5s ease-in-out;
+}
+.images:hover{
+    width:220px ;
+    height: 220px;
+   
+
 }
