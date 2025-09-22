@@ -11,7 +11,14 @@ body{
         overflow-x: hidden;
     }
    header{
-    height: 300px !important;
+   width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1677529459643-5d1b93049254?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  
+    
+    height: 550px !important;
+    color: rgb(14, 14, 14);
+    padding: 100px 20px;
+    text-align: center;
    } 
   
    nav ul{
@@ -104,9 +111,9 @@ nav ul li a{
    color: black;
   
 }
-.container{
+/* .container{
     font-family:arial
-}
+} */
 
 .Door ,.Windows,.about-me ,.html , .css , .javascript , .reactjs , .bootstrap , .mysql,.contact{
     color:blue;
