@@ -3,7 +3,9 @@
     margin: 0;
 }
 body{
+    width: 100%;
     overflow-x: hidden;
+    background-color: rgb(243, 239, 234);
    
 }
 @media(max-width:600px){
@@ -111,9 +113,9 @@ nav ul li a{
    color: black;
   
 }
-/* .container{
+.container{
     font-family:arial
-} */
+}
 
 .Door ,.Windows,.about-me ,.html , .css , .javascript , .reactjs , .bootstrap , .mysql,.contact{
     color:blue;
@@ -235,3 +237,5 @@ footer{
    
 
 }
+
+
